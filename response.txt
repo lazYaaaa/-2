@@ -1,0 +1,2 @@
+выборка по дате и врмени и получение раннее время в опредленную дату
+SELECT * FROM `booking` WHERE DATE(time_start) = "2023-06-28" AND TIME(time_start) < "15:12:43"
